@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  background-color: orange;
+}
+
+.web-name {
+  margin: 10px;
+  width: 25%;
+  text-align: center;
+  background-color: blue;
+}
+
+.web-name h1 {
+  color: orange;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 30%;
+  
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.main-section {
+  display: flex;
+}
+
+.left-side {
+  width: 40%;
+  background-color: blue;
+  height: 700px;
+}
+
+.right-side {
+  width: 60%;
+  background-color: green;
+  height: 700px;
+}
